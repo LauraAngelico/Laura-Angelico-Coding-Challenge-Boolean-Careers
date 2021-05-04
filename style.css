@@ -1,0 +1,81 @@
+body{
+  background-image: url(background.jpg);
+    background-size: 100%;
+}
+
+.container{
+  width: auto;
+  margin: 40px 250px ;
+  background-color: black;
+  background: rgba(0,0,0,0.5);
+  border-radius: 25px;
+  padding: 60px;
+}
+
+header, .logo-text, nav{
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+.logo-text{
+  font-size: 25px;
+  font-weight: bold;
+  color: limegreen;
+}
+
+nav{
+  background-color: limegreen;
+  padding: 4px;
+  height: 24px;
+}
+
+.Bottone{
+ font-size: 11px;
+}
+
+span{
+  color: white;
+}
+
+.Modello{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.arrow:before{
+  content:"\21A6";
+}
+
+.logo-text, .Modello, .via, .carica{
+  font-family:sans-serif;
+}
+
+.via, .carica, .Gino, .Mike, .Fede{
+  font-size: 12px;
+  display: block;
+}
+
+.Gino, .Mike, .Fede{
+  border:10px solid;
+  border-radius: 5px;
+}
+
+.Gino{
+  border-color: #fada5e;
+  margin-right: 490px;
+}
+
+.Mike{
+  border-color: #00c700;
+  margin-right: 280px;
+}
+
+.Fede{
+  border-color: #d73b3e;
+  margin-right: 630px;
+}
